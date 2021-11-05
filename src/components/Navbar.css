@@ -1,0 +1,31 @@
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    font-family: sans-serif;
+    padding: 1.5rem;
+}
+.navigation .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation .logo .web-name{
+    font-size: 1.7rem;
+}
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation ul li{
+    list-style: none;
+}
+
+.navigation a{
+     
+    text-decoration: none;
+    margin-left: 12px;
+}

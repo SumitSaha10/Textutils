@@ -1,0 +1,61 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    margin: auto;
+    margin-top: 2rem;
+    font-family: sans-serif;
+  }
+  
+  .section textarea {
+    background: none;
+    outline: none;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    border: 1px solid;
+  }
+  
+  .section .btn1 {
+    margin-top: 1rem;
+    background: rgb(13, 80, 204);
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    transition: 0.8s;
+    margin: 0.5rem;
+  }
+  
+  .section h3{
+    margin-top: 0.7rem;
+  }
+  .section p{
+    margin-top: 0.5rem;
+  }
+  
+  @media(max-width:550px){
+    .section h2{
+      font-size: 1.4rem;
+    }
+    .section textarea {
+      font-size: 1.3rem;
+    }
+  }
+  @media(max-width:475px){
+    .section h2{
+      font-size: 1.3rem;
+    }
+    .section textarea {
+      font-size: 1.2rem;
+    }
+  }
+
+  @media(max-width:400px){
+    .section h2{
+      font-size: 1.2rem;
+    }
+    .section textarea {
+      font-size: 1rem;
+    }
+  }

@@ -1,0 +1,9 @@
+.parentdiv{
+    height: 40px;
+}
+.alert{
+    background-color: rgb(106, 197, 14);
+    padding: 2px;
+    font-family: sans-serif;
+    width: 100vw;
+}
